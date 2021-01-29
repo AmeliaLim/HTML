@@ -1,0 +1,428 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #5C5B5B;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+/*navigation bar*/
+nav {
+    background-color: #6A7B8B;
+    height: 80px;
+    margin: 0;
+}
+
+.navlist {    
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.navlist a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 30px;
+    padding-right: 80px;
+    letter-spacing: 0.025em;
+    font-family: 'Archivo', sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: #6A7B8B;
+    width: 100%;
+    height: 142px;
+}
+
+.coffeelogotwo {
+    width: 53px;
+    height: 78px;
+    float: left;
+    padding: 30px;
+}
+
+footer div {
+    font-size: 16px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}   
+
+footer div ul {
+    display: flex;
+    flex-direction: row wrap;
+    list-style-type: none;
+    justify-content: center;
+    margin-right:45px;
+    
+
+}
+
+footer div ul img {
+    width: 28px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* home page */
+.coffeelogo {
+    width: 150px;
+    height: 56px;
+    padding: 10px;
+    float: left;
+}
+
+.mrcoffeelogo {
+    width: 207px;
+    height: 207px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hallofmrcoffee {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.introcontainer {
+    position: relative;
+}
+
+.introsubcontainer{
+    position:absolute;
+    top: 60px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.h1intro {
+    color:#FFFFFF;
+    text-shadow: 0px 4px 8px  #000000;
+    line-height: 55px;
+}
+
+.smallimage {
+    width: 30%;
+    margin-top: 50px;
+}
+
+.sectionsmallimage{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.sectionsmallimage1 {
+    text-align: center;
+    width: 33.33%;
+    background-color: #6A7B8B;
+    box-shadow: 0px 2px 4px #000000;
+    color:white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    width: 332px;
+    height: 77px;
+    background-color: #6A7B8B;
+    border: none;
+    color: white;
+    box-shadow: 0 2px 4px #000000 ;  
+    border-radius: 10px;
+    font-size: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+
+.openinginfor {
+    display: flex;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+}
+
+.openimg {
+    width: 107px;
+    padding: 20px;
+}
+
+.openimgtext {
+    margin-left: 30px;
+    margin-top: 100px;  
+}
+
+
+.houropening {
+    display:flex;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+
+.openinghours {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ending {
+    font-size: 32px;
+    margin: 80px;
+}
+
+/*about page*/
+.imageabout {
+    width: 45%;
+    align-self: flex-start;
+    object-fit: contain;
+    padding-left: 110px;
+}
+
+.imageabout1 {
+    width: 40%;
+    object-fit: contain;
+    align-self: flex-start;
+    padding-right: 50px;
+}
+
+.aboutcontainer {
+    width: 85%;
+    display: flex;
+    margin: 100px auto;
+}
+
+.abouttext {
+    text-align: left;
+    font-size:  23px;
+    flex: 1 1 auto;
+}
+
+/*contact page*/
+
+.mapimage {
+    width: 80%;
+    margin-bottom:60px;
+}
+
+.contactinformation {
+    text-align: left;
+    width: 80%;
+    margin: 100px auto;
+}
+
+
+/* media queries */
+
+/* tablets */
+@media screen and (max-width: 768px) {
+
+    .h1intro {
+        font-size: 20px;
+    }
+
+    nav{
+        height:fit-content;
+    }
+
+    .coffeelogo{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 12%;
+        height: auto;
+    }
+
+    .introsubcontainer{
+        font-size: 15px;
+    }
+
+    .navlist {
+        justify-content: center;
+        padding-bottom:20px;
+    }
+
+    .navlist a {
+       padding-right: 20px;
+       padding-left: 20px;
+    }
+
+    .mrcoffeelogo {
+        width: 20%;
+        height: auto;
+    }
+
+    .sectionsmallimage {
+        flex-direction: column;        
+    }
+
+    .sectionsmallimage1 {
+        width: 85%;
+    }
+
+    .smallimage {
+        margin-top: 10px;
+    }
+
+    .contactinformation{
+         text-align: center;
+    }
+
+    button {
+        width: 50%;
+    }
+
+    .openinghours{
+        width: 85%;
+        outline: 2px solid black;
+        margin-bottom: 50px;
+    }
+    
+    .houropening{
+        flex-direction: column;
+    }
+
+    .openinginfor {
+        flex-direction: column;
+    }
+
+    .openimg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .openimgtext {
+        margin-top: 10px;
+    }
+
+    .aboutcontainer{
+        flex-direction: column;
+        margin-top: 10px;
+        width: 75%;
+        font-size: 15px;
+   
+    }
+
+    .abouttext{
+        font-size: 1.0rem;
+    }
+
+    .imageabout {
+        width: 65%;
+        padding: 0;
+        margin-left:auto;
+        margin-right: auto;
+        padding-top: 60px;
+    }
+
+    .imageabout1 {
+        width: 65%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+
+    .navlist {
+        flex-direction: column;
+        margin-right: 40px;
+        padding-bottom: 50px;
+    }
+
+    .navlist a {
+        font-size: 18px;
+    }
+
+    footer {
+        height: fit-content;
+    }
+
+    footer div {
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    footer div ul {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .coffeelogotwo {
+        float: none;
+        padding-top: 25px;
+        width: 8%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .contactinformation {
+        font-size:23px; 
+    }
+
+    .imageabout {
+        width: 100%;
+    }
+
+    .imageabout1 {
+        width: 100%;
+    }
+
+    button {
+        width: 60%;
+    }
+
+    .openinghours {
+        font-size: 25px;
+    }
+
+    .ending {
+        font-size: 28px;
+    }
+
+    .h1intro {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
